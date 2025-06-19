@@ -1,0 +1,14 @@
+// firebase-config.js
+
+// Import only if you're using modules, otherwise this goes inside a <script> tag
+const firebaseConfig = {
+  apiKey: "AIzaSyBj8ZMc8zkCM6PoW7A09VMnmiSQhfyVLtY",
+  authDomain: "to-do-list-a517c.firebaseapp.com",
+  projectId: "to-do-list-a517c",
+  storageBucket: "to-do-list-a517c.firebasestorage.app",
+  messagingSenderId: "248327993764",
+  appId: "1:248327993764:web:b4bf182f50582554fa2931"
+};
+
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
